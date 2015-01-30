@@ -68,6 +68,7 @@
 		BA5EA59E1A7BBA3A00AA333F /* ConfigurationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5EA59C1A7BBA3A00AA333F /* ConfigurationManager.m */; };
 		BA5EA59F1A7BBA3A00AA333F /* Configurations.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA5EA59D1A7BBA3A00AA333F /* Configurations.plist */; };
 		BA5EA5A11A7BBA5B00AA333F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA5EA5A01A7BBA5B00AA333F /* ViewController.xib */; };
+		BA5EA5A41A7BC3D000AA333F /* UIImage+Workers.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5EA5A31A7BC3D000AA333F /* UIImage+Workers.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -199,6 +200,8 @@
 		BA5EA59C1A7BBA3A00AA333F /* ConfigurationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurationManager.m; sourceTree = "<group>"; };
 		BA5EA59D1A7BBA3A00AA333F /* Configurations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configurations.plist; sourceTree = "<group>"; };
 		BA5EA5A01A7BBA5B00AA333F /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		BA5EA5A21A7BC3D000AA333F /* UIImage+Workers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Workers.h"; sourceTree = "<group>"; };
+		BA5EA5A31A7BC3D000AA333F /* UIImage+Workers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Workers.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -518,6 +521,8 @@
 		BA5EA5961A7BB9D700AA333F /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				BA5EA5A21A7BC3D000AA333F /* UIImage+Workers.h */,
+				BA5EA5A31A7BC3D000AA333F /* UIImage+Workers.m */,
 			);
 			name = Category;
 			path = SPHBaseProject/Category;
@@ -657,6 +662,7 @@
 				BA5EA5901A7BB9AC00AA333F /* README.md in Sources */,
 				BA5EA5621A7BB9AC00AA333F /* AFHTTPRequestOperation.m in Sources */,
 				BA5EA57C1A7BB9AC00AA333F /* NSString+MagicalDataImport.m in Sources */,
+				BA5EA5A41A7BC3D000AA333F /* UIImage+Workers.m in Sources */,
 				BA5EA5761A7BB9AC00AA333F /* MagicalImportFunctions.m in Sources */,
 				BA5EA57F1A7BB9AC00AA333F /* NSManagedObject+MagicalFinders.m in Sources */,
 				BA5EA5841A7BB9AC00AA333F /* NSManagedObjectContext+MagicalSaves.m in Sources */,
@@ -887,6 +893,7 @@
 				BA5EA4E61A7BB93300AA333F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA5EA4E71A7BB93300AA333F /* Build configuration list for PBXNativeTarget "SPHBaseProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -895,6 +902,7 @@
 				BA5EA4E91A7BB93300AA333F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
